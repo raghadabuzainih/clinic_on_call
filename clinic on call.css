@@ -1,0 +1,243 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    padding: 0 11px;
+    background-color: #1B262C;
+    display: flex;
+    gap: 24rem;
+    color: white;    
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: green;
+}
+
+.interfaces{
+    display: flex;
+    gap: 2rem;
+    line-height: 5rem;
+}
+
+#home{
+    margin-top: -3.4rem;
+    color: black;
+    height: 30rem;
+    background: url('clinic.PNG');
+    filter: brightness(50%);
+}
+
+#home h1{
+    position: relative;
+    top: 4rem;
+    margin-left: 27rem;
+    font-size: 4rem;
+    width: 38rem;
+    background-color: antiquewhite;
+}
+
+#home h2{
+    position: relative;
+    top: 10rem;
+    font-size: 2rem;
+    margin-left: 54rem;
+    margin-top: -9rem;
+    color: black;
+    width: 286px;
+    background-color: white;
+}
+
+
+#about{
+    background-color: antiquewhite;
+    display: flex;
+    gap: 3rem;
+    padding: 5rem;
+}
+
+#about h1{
+    font-size: 3rem;
+}
+
+
+.line{
+    position: relative;
+    top: -28px;
+    width: 10.5rem;
+    height: 1rem;
+    background-color: rgb(87, 54, 54);
+}
+
+#about img{
+    width: 45rem;
+    height: 30rem;
+}
+
+#about p{
+    line-height: 1.9rem;
+    font-size: 1.4rem;
+}
+
+
+#services{
+    margin-top: -2rem;
+    background-color: #F9F9F9;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+#services h1{
+    line-height: 6rem;
+}
+
+.three-serv{
+    display: flex;
+    gap: 3rem;
+    padding-left: 3rem;
+}
+
+.same img{
+    margin-left: 7.5rem;
+}
+
+.same{
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    width: 27rem;
+}
+
+.clinics{
+    display: grid;
+    gap: 2rem;
+    background-color: antiquewhite;
+    padding-bottom: 3rem;
+}
+
+#heading-clinic{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.clinic{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+.clinic h1{
+    color: brown;
+}
+
+.clinic img{
+    border-radius: 5px;
+    width: 20rem;
+    height: 10rem;
+}
+
+strong{
+    text-align: end;
+}
+
+.teams{
+    display: grid;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+
+.card{
+    display: flex;
+    gap: 2rem;
+}
+
+.card div{
+    margin-top: -1rem;
+}
+
+.card img{
+    border-radius: 1rem;
+    width: 8rem;
+    height: 8rem;
+}
+
+.card h3{
+    color: green;
+}
+
+.title-team{
+    text-align: center;
+}
+
+.contact{
+    background-color: antiquewhite;
+    padding: 4rem;
+}
+
+.contact h1{
+    text-align: center;
+}
+
+.two-sections{
+    display: flex;
+    gap: 15rem;
+}
+
+.info{
+    text-align: center;
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
+
+.form{
+    display: grid;
+    gap: 1rem;
+    width: 30rem;
+}
+
+.first-inputs{
+    display: flex;
+    gap: 1rem;
+}
+
+.form input, .form button{
+    padding: 0 .5rem;
+    height: 3rem;
+    font-size: 17px;
+}
+
+.form textarea{
+    height: 7rem;
+    resize: none;
+    font-size: 17px;
+    padding: .7rem .5rem;
+}
+
+button{
+    cursor: pointer;
+}
+
+.form button{
+    border: none;
+    color: white;
+    background-color: rgb(88, 65, 65);
+}
+
+footer{
+    height: 2rem;
+    background-color: #1B262C;
+    color: white;
+    text-align: center;
+    line-height: 1.9rem;
+}
